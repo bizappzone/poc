@@ -1,3 +1,3 @@
 # Poc
 
-Sample storrybook tailwind angular repo
+Sample storybook tailwind angular repo

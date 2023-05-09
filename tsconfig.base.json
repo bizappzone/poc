@@ -10,24 +10,15 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bizappzone/poc/base-ui": [
-        "packages/base-ui/src/index.ts"
-      ],
-      "@bizappzone/poc/forms-ui": [
-        "packages/forms-ui/src/index.ts"
-      ]
+      "@bizappzone/poc/base-ui": ["packages/base-ui/src/index.ts"],
+      "@bizappzone/poc/forms-ui": ["packages/forms-ui/src/index.ts"],
+      "@bizapzone/poc-design": ["packages/design/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }
